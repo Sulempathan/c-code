@@ -2,8 +2,24 @@
 
 #include<stdio.h>
 #include<conio.h>
-main()
+int main()
 { 
   printf("hello world");
   return 0;
- }
+  }
+
+//Taking different inputs in c
+#include<stdio.h>
+int main()
+{ 
+  int a;
+  float b;
+  char c;
+  printf("Enter an integer");
+  scanf("%d",&a);
+  printf("Enter an float");
+  scanf("%f",&b);
+  printf("Enter an character");
+  scanf("%c",&c);
+  return 0;
+  }
