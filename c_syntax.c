@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 #include<conio.h>
-main()
+int main()
 { 
   printf("hello world");
   return 0;
